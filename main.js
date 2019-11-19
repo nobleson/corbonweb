@@ -12,11 +12,6 @@ var path = require('path');
 var router = express.Router();
 var path = __dirname + '/public/';
 
-router.use(function (req,res,next) {
-  console.log("/" + req.method);
-  next();
-});
-
 app.use("/",router);
 app.use(bodyParser.urlencoded({ extended: true })); 
 app.use(bodyParser.json());
