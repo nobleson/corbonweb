@@ -355,6 +355,8 @@ nav > div > ul ul,
 .social-btns-wrap > i,
 .social-btns-wrap .social-btns2,
 .register-vote-popup-wrapper,
+.login-pop-wrapper,
+.pop-close,
 .popup-close,
 .res-menu-btn,
 .res-menu,
@@ -5072,3 +5074,103 @@ html.popuo-active .register-vote-popup-wrapper {
 .rev-btn.theme-btn:focus {background-color: transparent !important;}
 .black-layer .sec-box-inner .sec-title > h2, 
 .black-layer2 .sec-box-inner .sec-title > h2 {color: #333;}
+
+/*==== login pop ====*/
+.login-pop-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.9);
+  z-index: 9999;
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+}
+.pop-close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  background-color: #fff;
+  line-height: 40px;
+  cursor: pointer;
+  width: 40px;
+}
+.pop-close:hover {color: #fff;}
+html.popo-active {overflow-y: hidden;}
+html.popo-active .login-pop-wrapper {
+  opacity: 1;
+  visibility: visible;
+}
+.login-pop {
+  position: relative;
+  display: inline-block;
+  max-width: 570px;
+  width: 100%;
+  margin: 132px 0;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.login-pop-title {
+  float: left;
+  padding: 31px 30px 31px 80px;
+  width: 100%;
+  text-align: left;
+}
+.login-pop-title > h4 {
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.login-pop-form-wrap {
+  float: left;
+  padding: 30px 70px 55px;
+  width: 100%;
+}
+.login-pop-form-wrap > form {
+  float: left;
+  width: 100%;
+}
+.login-pop-form-wrap > form .input-field {
+  float: left;
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+.login-pop-form-wrap > form input {
+  float: left;
+  padding: 18px 35px;
+  width: 100%;
+  font-size: 14px;
+  color: #777;
+  background-color: #e6e6e6;
+}
+.login-pop-form-wrap > form .input-field i {
+  position: absolute;
+  right: 25px;
+  line-height: 60px;
+  color: #777;
+  font-size: 14px;
+}
+.login-pop-form-wrap > form .theme-btn2.big {
+  padding: 23.5px 90px;
+  margin-top: 20px;
+}
+
+/*Tabs*/
+
+.list {
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	text-align: center;	
+	text-decoration: none;
+	color: #0099cc;
+	background: #6edeef;
+}

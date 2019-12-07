@@ -39,6 +39,17 @@ $(document).ready(function(){
     return false;
   });
 
+
+    //===== login =====//
+  $('.login-pop-btn').on('click',function(){
+    $('html').addClass('popo-active');
+    return false;
+  });
+  
+  $('.pop-close').on('click',function(){
+    $('html').removeClass('popo-active');
+    return false;
+  });
   //===== Counter Up =====//
   if ($.isFunction($.fn.counterUp)) {
     $('.counter').counterUp({

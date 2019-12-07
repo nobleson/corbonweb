@@ -81,7 +81,18 @@ router.get("/",function(req,res){
   router.get("/contact",function(req,res){
     res.sendFile(path + "contact-us1.html");
   });
- 
+  router.get("/K84yrtnd",function(req,res){
+    res.sendFile(path + "corbon-admin.html");
+  });
+  router.get("/profile",function(req,res){
+    res.sendFile(path + "builders-profile.html");
+  });
+  router.get("/SWsjfeh",function(req,res){
+    res.sendFile(path + "sign-up.html");
+  });
+  router.get("/login",function(req,res){
+    res.sendFile(path + "login.html");
+  });
   
 
 app.listen(port,() => {

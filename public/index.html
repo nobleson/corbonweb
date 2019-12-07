@@ -79,10 +79,8 @@
                     <div class="header-top-inner">
                         <div class="logo"><a href="#" title="" itemprop="url"><img src="/public/assets/images/logoo.png" alt="logo.png" itemprop="image"></a></div> 
                         <div class="top-links">
-                            <a href="#" title=""><i class="fa fa-sign-in theme-clr"></i> Login</a>
-                            <a href="#" title=""><i class="fa fa-user theme-clr"></i> Sign Up</a>
+                            <a href="#" title="" itemprop="url" class="login-pop-btn"><i class="fa fa-sign-in theme-clr"></i> Login</a>
                         </div>
-                        -->
                         <div class="top-links">
                             <h5 style="font-family:lucida console; color: white">Council of Registered Builders of Nigeria</h5>
                         </div> 
@@ -139,12 +137,11 @@
             <div class="res-header-top">
                 <div class="container">
                     <div class="header-top-inner">
-                        <!-- 
+                        
                         <div class="top-links">
-                            <a href="#" title=""><i class="fa fa-sign-in theme-clr"></i> Login</a>
-                            <a href="#" title=""><i class="fa fa-user theme-clr"></i> Sign Up</a>
+                             <a href="#" title="" itemprop="url" class="login-pop-btn"><i class="fa fa-sign-in theme-clr"></i> Login</a>
                         </div>
-                        -->
+                
                         <div class="top-links">
                             <h5 style="font-family:lucida console; color: white">Council of Registered Builders of Nigeria</h5>
                         </div> 
@@ -565,7 +562,6 @@
                                                     <li><a href="donate-now.html" title="" itemprop="url">Contribute Now</a></li>
                                                     <li><a href="volunteer.html" title="" itemprop="url">Our Volunteers</a></li>
                                                     <li><a href="causes-grid.html" title="" itemprop="url">Action Center</a></li>
-                                                    <li><a class="register-vote-popup-btn" href="#" title="" itemprop="url">Register to Vote</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -634,24 +630,109 @@
                 </div>
             </div>
         </footer><!-- Footer -->
+          
         <div class="bottom-bar">
             <div class="container">
                 <div class="footer-wrap">
                     <p itemprop="description"><a class="theme-clr" href="#" title="corbon.gov.ng" itemprop="url" target="_blank">CORBON</a> &copy; 2019, All Rights Reserved <a class="theme-clr" href="#" title="" itemprop="url" target="_blank"></a></p>
                     <ul class="bottom-links">
                         <li><a href="/" title="" itemprop="url">HOME</a></li>
-                        <li><a href="event" title="" itemprop="url">EVENTS</a></li>
-                        <li><a href="contact-us1" title="" itemprop="url">CONTACT</a></li>
+                        <li><a href="/event" title="" itemprop="url">EVENTS</a></li>
+                        <li><a href="/contact" title="" itemprop="url">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
         </div><!-- Bottom bar -->
-      
+        <div class="login-pop-wrapper text-center">
+            <span class="pop-close"><i class="fa fa-close"></i></span>
+            <div class="login-pop">
+                <div class="login-pop-title theme-bg"><h4 itemprop="headline">Login</h4></div>
+                <div class="login-pop-form-wrap">
+                    <form>
+                        <div class="row mrg10">
+                            <div class="col-md-12 col-sm-12 col-lg-12">
+                                <div class="input-field">
+                                    <input class="brd-rd33" type="email" placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12">
+                                <div class="input-field">
+                                    <input class="brd-rd33" type="text" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12">
+                                <button class="brd-rd33 theme-btn2 big" type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="register-vote-popup-wrapper text-center">
+            <span class="popup-close"><i class="fa fa-close"></i></span>
+            <div class="register-vote-popup">
+                <div class="register-vote-popup-title theme-bg"><h4 itemprop="headline">Sign Up</h4></div>
+                <div class="register-vote-popup-form-wrap">
+                    <form>
+                        <div class="row mrg10">
+                            <div class="col-md-12 col-sm-12 col-lg-12">
+                                <div class="input-field">
+                                    <input class="brd-rd33" type="text" placeholder="First Name">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12">
+                                <div class="input-field">
+                                    <input class="brd-rd33" type="text" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12">
+                                <div class="input-field">
+                                    <input class="brd-rd33" type="email" placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12">
+                                <div class="input-field">
+                                    <input class="brd-rd33" type="text" placeholder="Phone No">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-lg-4">
+                                <div class="input-field">
+                                    <input class="brd-rd33" type="text" placeholder="Day">
+                                    <i class="fa fa-calendar-o"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-lg-4">
+                                <div class="input-field">
+                                    <input class="brd-rd33" type="text" placeholder="Month">
+                                    <i class="fa fa-calendar-o"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-lg-4">
+                                <div class="input-field">
+                                    <input class="brd-rd33" type="text" placeholder="Year">
+                                    <i class="fa fa-calendar-o"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12">
+                                <div class="input-field">
+                                    <input class="brd-rd33" type="text" placeholder="Builder No ( xxxxx - xxxxxxx - x )">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12">
+                                <button class="brd-rd33 theme-btn2 big" type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div><!-- Register Vote Popup Wrapper --> -->
+    
     </main><!-- Project Main Wrapper -->
     <script src="/public/assets/js/jquery.min.js"></script>
     <script src="/public/assets/js/bootstrap.min.js"></script>
     <script src="/public/assets/js/plugins.js"></script>
     <script src="/public/assets/js/custom-scripts.js"></script>
+    <script src="/public/assets/js/custom2-scripts.js"></script>
     <script src="/public/assets/js/revolution/jquery.themepunch.tools.min.js"></script>
     <script src="/public/assets/js/revolution/jquery.themepunch.revolution.min.js"></script>
     <script src="/public/assets/js/revolution/extensions/revolution.extension.actions.min.js"></script>
