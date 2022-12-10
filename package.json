@@ -4,9 +4,9 @@
   "description": "Tracker and face detector",
   "main": "main.js",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "cors": "^2.8.5",
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "file-saver": "^2.0.2",
     "fs-extra": "^8.1.0",
     "mongoose": "^5.2.8",
